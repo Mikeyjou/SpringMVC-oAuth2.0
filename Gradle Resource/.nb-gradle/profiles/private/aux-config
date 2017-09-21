@@ -5,16 +5,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
       <group>
-        <file>file:/C:/Users/Suhmian/Documents/NetBeansProjects/Gradle%20Resource/build.gradle</file>
+        <file>file:/N:/SpringMVC-oAuth2.0/Gradle%20Resource/src/main/java/com/lavidatec/demo/oauth2/controller/ApiController.java</file>
       </group>
     </open-files>
     <editor-bookmarks lastBookmarkId="0" xmlns="http://www.netbeans.org/ns/editor-bookmarks/2"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-      <group>
-        <file>file:/C:/Users/Suhmian/Documents/NetBeansProjects/Gradle%20Resource/build.gradle</file>
-        <file>file:/C:/Users/Suhmian/Documents/NetBeansProjects/Gradle%20Resource/src/main/java/com/lavidatec/demo/oauth2/controller/TrainsController.java</file>
-        <file>file:/C:/Users/Suhmian/Documents/NetBeansProjects/Gradle%20Resource/src/main/java/com/lavidatec/demo/oauth2/controller/ApiResponse.java</file>
-      </group>
-    </open-files>
   </auxiliary>
 </gradle-project-properties>

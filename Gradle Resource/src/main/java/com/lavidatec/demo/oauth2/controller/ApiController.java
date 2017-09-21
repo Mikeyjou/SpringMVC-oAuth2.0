@@ -48,11 +48,11 @@ public class ApiController {
     }
 
     @RequestMapping("/client")
-    public Map<String, Object> client(Principal user) {
+    public Map<String, Object> client() {
         Map<String, Object> result = new HashMap<String, Object>();
         result.put("success", Boolean.TRUE);
         result.put("page", "client");
-        result.put("user", user.getName());
+//        result.put("user", user.getName());
 
         return result;
     }

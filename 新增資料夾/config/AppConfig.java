@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
@@ -16,9 +17,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * Created by Arip Hidayat on 12/8/2015.
  */
 @Configuration
-@EnableWebMvc
-@ComponentScan
+//@EnableWebMvc
+//@ComponentScan
 @PropertySource("classpath:clients.properties")
+@ImportResource({"classpath:spring-mvc-config.xml"})
 public class AppConfig extends WebMvcConfigurerAdapter {
 
     @Value("${allowedHosts}")

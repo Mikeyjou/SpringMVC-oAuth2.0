@@ -21,7 +21,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
         http.authorizeRequests().antMatchers("/api/admin").hasRole("ADMIN");
         http.authorizeRequests().antMatchers("/api/staff").hasRole("STAFF");
         http.authorizeRequests().antMatchers("/api/client").access("#oauth2.hasScope('trust')");
-        http.authorizeRequests().antMatchers("/Train/search").hasRole("ADMIN");
+        http.authorizeRequests().antMatchers("/Train/search").access("#oauth2.hasScope('trust')");
     }
 
     @Override
